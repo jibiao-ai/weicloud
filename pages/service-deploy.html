@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智算云平台交付部署 - 南京蔚云信息科技</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo"><div class="nav-logo-icon">蔚</div><span class="nav-logo-text">蔚云科技</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="#" class="active">核心服务 ▾</a><div class="dropdown-menu"><a href="service-deploy.html">智算云平台交付部署</a><a href="service-aiops.html">AI智能运维</a><a href="service-private-cloud.html">私有云代运维</a><a href="service-onsite.html">驻场运维服务</a></div></li>
+                <li><a href="#">自研产品 ▾</a><div class="dropdown-menu"><a href="product-opsgenie.html">OpsGenie AI</a><a href="product-stacklane.html">Stacklane</a></div></li>
+                <li><a href="../index.html#qualifications">企业资质</a></li>
+                <li><a href="../index.html#contact">联系我们</a></li>
+                <li><a href="../index.html#contact" class="nav-cta">获取方案</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="hero-grid"></div>
+        <div class="page-header-content">
+            <div class="breadcrumb"><a href="../index.html">首页</a><span>/</span><a href="../index.html#services">核心服务</a><span>/</span><span class="current">智算云平台交付部署</span></div>
+            <h1>智算云平台交付部署</h1>
+            <p>提供从规划设计、硬件选型、平台搭建到交付验收的一站式智算云平台建设服务，助力企业快速构建AI计算基础设施。</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="section-container">
+            <div class="content-block animate-on-scroll">
+                <h2>服务概述</h2>
+                <p>蔚云科技具备丰富的智算云平台交付部署经验，为客户提供从前期需求调研、架构规划设计、GPU集群部署、AI推理平台搭建到最终交付验收的全流程服务。我们深耕智算领域，已成功交付多个大规模GPU集群项目，覆盖模型训练、推理服务、数据处理等多种应用场景。</p>
+                <p>团队核心成员拥有NVIDIA GPU计算、大模型推理优化、容器化编排等领域的深厚技术积累，能够根据客户业务需求提供最优的平台架构方案与实施路径。</p>
+            </div>
+
+            <div class="content-block animate-on-scroll">
+                <h2>服务范围</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <h4>📐 需求调研与架构设计</h4>
+                        <p>深入了解客户AI业务场景、数据规模与性能需求，输出详细的智算云平台架构设计方案，包括网络拓扑、存储规划、GPU集群设计等。</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>🖥️ GPU集群部署</h4>
+                        <p>NVIDIA A100/H100/L40S等主流GPU服务器的集群部署，包括驱动安装、CUDA环境配置、NVLink/NVSwitch互联调优、RDMA网络配置。</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>🚀 AI推理平台搭建</h4>
+                        <p>基于vLLM、TensorRT-LLM等主流推理引擎搭建高性能推理服务平台，配合GPUStack实现集群级资源调度与管理。</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>🏗️ 容器化平台建设</h4>
+                        <p>Kubernetes + GPU Operator容器化平台部署，支持模型训练任务调度（Kubeflow）、推理服务编排（KServe）等AI工作负载。</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>📊 监控告警体系</h4>
+                        <p>基于Prometheus + Grafana的全方位监控体系搭建，包含GPU利用率、显存占用、推理延迟、吞吐量等核心指标采集与可视化。</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>🔐 安全与权限</h4>
+                        <p>多租户隔离、网络安全策略、数据加密、访问控制（RBAC）等安全体系建设，满足企业级安全合规要求。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block animate-on-scroll">
+                <h2>交付流程</h2>
+                <table class="data-table">
+                    <thead><tr><th>阶段</th><th>内容</th><th>交付物</th><th>周期</th></tr></thead>
+                    <tbody>
+                        <tr><td>需求调研</td><td>业务场景分析、性能需求评估、现有环境摸底</td><td>需求规格说明书</td><td>1-2周</td></tr>
+                        <tr><td>方案设计</td><td>架构设计、选型方案、网络/存储规划</td><td>技术方案文档</td><td>1-2周</td></tr>
+                        <tr><td>环境准备</td><td>硬件上架、网络配置、基础OS安装</td><td>环境准备报告</td><td>1-2周</td></tr>
+                        <tr><td>平台部署</td><td>GPU驱动、容器平台、推理引擎、监控体系</td><td>部署实施文档</td><td>2-4周</td></tr>
+                        <tr><td>测试验证</td><td>功能测试、性能测试、压力测试、安全测试</td><td>测试报告</td><td>1-2周</td></tr>
+                        <tr><td>交付培训</td><td>平台使用培训、运维手册交付、问题答疑</td><td>运维手册 + 培训记录</td><td>1周</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="content-block animate-on-scroll">
+                <h2>支持的技术栈</h2>
+                <div class="tech-grid">
+                    <div class="tech-item"><div class="tech-item-icon">🟢</div><div class="tech-item-name">NVIDIA A100</div></div>
+                    <div class="tech-item"><div class="tech-item-icon">🟢</div><div class="tech-item-name">NVIDIA H100</div></div>
+                    <div class="tech-item"><div class="tech-item-icon">🟢</div><div class="tech-item-name">NVIDIA L40S</div></div>
+                    <div class="tech-item"><div class="tech-item-icon">⚡</div><div class="tech-item-name">vLLM</div></div>
+                    <div class="tech-item"><div class="tech-item-icon">⚡</div><div class="tech-item-name">TensorRT-LLM</div></div>
+                    <div class="tech-item"><div class="tech-item-icon">⚡</div><div class="tech-item-name">GPUStack</div></div>
+                    <div class="tech-item"><div class="tech-item-icon">🐳</div><div class="tech-item-name">Kubernetes</div></div>
+                    <div class="tech-item"><div class="tech-item-icon">🐳</div><div class="tech-item-name">Docker</div></div>
+                    <div class="tech-item"><div class="tech-item-icon">📊</div><div class="tech-item-name">Prometheus</div></div>
+                    <div class="tech-item"><div class="tech-item-icon">📊</div><div class="tech-item-name">Grafana</div></div>
+                    <div class="tech-item"><div class="tech-item-icon">🔗</div><div class="tech-item-name">Dify</div></div>
+                    <div class="tech-item"><div class="tech-item-icon">🔗</div><div class="tech-item-name">Ollama</div></div>
+                </div>
+            </div>
+
+            <div class="content-block animate-on-scroll">
+                <h2>服务优势</h2>
+                <div class="two-col">
+                    <div>
+                        <ul>
+                            <li>自研Stacklane平台作为管理底座，降低智算中心运维复杂度</li>
+                            <li>拥有8+项软件著作权，核心技术自主可控</li>
+                            <li>成功交付多个大规模GPU集群项目（64+ GPU卡）</li>
+                            <li>支持从POC验证到生产级的平滑扩展</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>提供交付后的持续运维保障服务</li>
+                            <li>7×24小时技术支持，SLA 99.9%</li>
+                            <li>对接主流AI应用平台（Dify/MaxKB/FastGPT等）</li>
+                            <li>完善的文档体系与运维培训服务</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align:center; margin-top:60px;" class="animate-on-scroll">
+                <a href="../index.html#contact" class="btn btn-primary">咨询智算云部署方案 →</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-copy">© 2024 南京蔚云信息科技有限公司 版权所有</div>
+            <ul class="footer-links"><li><a href="product-stacklane.html">Stacklane</a></li><li><a href="product-opsgenie.html">OpsGenie AI</a></li><li><a href="../index.html#contact">联系我们</a></li></ul>
+        </div>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>

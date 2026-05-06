@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI智能运维 (AIOps) - 南京蔚云信息科技</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo"><div class="nav-logo-icon">蔚</div><span class="nav-logo-text">蔚云科技</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="#" class="active">核心服务 ▾</a><div class="dropdown-menu"><a href="service-deploy.html">智算云平台交付部署</a><a href="service-aiops.html">AI智能运维</a><a href="service-private-cloud.html">私有云代运维</a><a href="service-onsite.html">驻场运维服务</a></div></li>
+                <li><a href="#">自研产品 ▾</a><div class="dropdown-menu"><a href="product-opsgenie.html">OpsGenie AI</a><a href="product-stacklane.html">Stacklane</a></div></li>
+                <li><a href="../index.html#qualifications">企业资质</a></li>
+                <li><a href="../index.html#contact">联系我们</a></li>
+                <li><a href="../index.html#contact" class="nav-cta">获取方案</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="hero-grid"></div>
+        <div class="page-header-content">
+            <div class="breadcrumb"><a href="../index.html">首页</a><span>/</span><a href="../index.html#services">核心服务</a><span>/</span><span class="current">AI智能运维</span></div>
+            <h1>AI智能运维 (AIOps)</h1>
+            <p>基于自研OpsGenie AI平台，融合大语言模型与Function Calling技术，为企业云平台提供智能化、自动化的运维服务。</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="section-container">
+            <div class="content-block animate-on-scroll">
+                <h2>服务概述</h2>
+                <p>蔚云科技AI智能运维(AIOps)服务基于自研OpsGenie AI平台，将大语言模型的自然语言理解能力与云平台API深度融合。通过AI Function Calling技术，运维工程师可以用自然语言下达运维指令，AI自动解析意图并调用对应的云平台API执行操作，大幅降低运维门槛，提升运维效率。</p>
+                <p>AIOps服务覆盖告警智能分析、故障根因定位、自动化修复、巡检报告生成、资源优化建议等核心运维场景，帮助客户从"人工运维"迈向"智能运维"。</p>
+            </div>
+
+            <div class="content-block animate-on-scroll">
+                <h2>核心能力</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <h4>🤖 AI对话式运维</h4>
+                        <p>通过自然语言与AI对话完成云资源管理，如"查看所有异常虚拟机"、"重启指定服务"等指令，AI自动翻译为API调用。</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>🔔 智能告警分析</h4>
+                        <p>AI自动分析告警上下文，识别告警根因，过滤重复告警与噪声，生成结构化告警摘要与处理建议。</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>🔄 自动化修复</h4>
+                        <p>针对已知故障模式，AI自动执行预定义修复工作流：服务重启、资源扩容、配置回滚等，实现故障自愈。</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>📋 智能巡检</h4>
+                        <p>Cron定时触发AI巡检任务，自动检查资源健康状态、证书过期、磁盘空间、服务可用性等，生成巡检报告。</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>📊 容量预测</h4>
+                        <p>基于历史数据趋势分析，预测资源使用增长，提前给出扩容建议，避免资源瓶颈导致服务降级。</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>📝 运维知识库</h4>
+                        <p>积累运维经验形成知识库，AI在处理问题时自动检索相关历史案例与解决方案，缩短故障处理时间。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block animate-on-scroll">
+                <h2>支持的云平台</h2>
+                <table class="data-table">
+                    <thead><tr><th>云平台</th><th>认证方式</th><th>支持操作</th></tr></thead>
+                    <tbody>
+                        <tr><td>EasyStack</td><td>Keystone Token</td><td>虚拟机、网络、存储、镜像、安全组等全量API</td></tr>
+                        <tr><td>ZStack</td><td>AccessKey</td><td>虚拟机、云盘、网络、监控、告警等核心API</td></tr>
+                        <tr><td>OpenStack</td><td>Keystone Token</td><td>计算、网络、存储、编排等Neutron/Cinder/Nova API</td></tr>
+                        <tr><td>Kubernetes</td><td>KubeConfig</td><td>Pod、Service、Deployment、Node等资源管理</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="content-block animate-on-scroll">
+                <h2>服务模式</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <h4>☁️ SaaS 云服务</h4>
+                        <p>蔚云科技提供托管的AIOps云服务，客户通过安全隧道对接自有云平台，即开即用，无需额外部署。</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>🏢 私有化部署</h4>
+                        <p>将OpsGenie AI平台私有化部署到客户数据中心，数据不出域，满足金融、政务等强合规场景。</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>🤝 混合模式</h4>
+                        <p>AI引擎云端部署，数据处理本地化，兼顾AI能力的持续更新与客户数据的安全合规要求。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block animate-on-scroll">
+                <h2>客户价值</h2>
+                <div class="two-col">
+                    <div>
+                        <ul>
+                            <li>运维效率提升60%+，减少重复性手工操作</li>
+                            <li>故障发现时间从分钟级缩短到秒级</li>
+                            <li>MTTR（平均修复时间）降低50%以上</li>
+                            <li>7×24小时AI值守，无需轮班安排</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>降低运维人员技术门槛，新人快速上手</li>
+                            <li>完整操作审计日志，满足合规要求</li>
+                            <li>运维知识沉淀与传承，减少人员流动影响</li>
+                            <li>持续AI模型升级，运维能力不断进化</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align:center; margin-top:60px;" class="animate-on-scroll">
+                <a href="product-opsgenie.html" class="btn btn-outline" style="margin-right:16px;">了解 OpsGenie AI 产品 →</a>
+                <a href="../index.html#contact" class="btn btn-primary">申请AIOps试用 →</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-copy">© 2024 南京蔚云信息科技有限公司 版权所有</div>
+            <ul class="footer-links"><li><a href="product-opsgenie.html">OpsGenie AI</a></li><li><a href="product-stacklane.html">Stacklane</a></li><li><a href="../index.html#contact">联系我们</a></li></ul>
+        </div>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>

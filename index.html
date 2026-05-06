@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>南京蔚云信息科技有限公司 - 智算云平台专家</title>
+    <meta name="description" content="南京蔚云信息科技专注智算云平台交付部署、AI智能运维、私有云代运维与驻场运维服务">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <div class="nav-logo-icon">蔚</div>
+                <span class="nav-logo-text">蔚云科技</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">首页</a></li>
+                <li>
+                    <a href="#">核心服务 ▾</a>
+                    <div class="dropdown-menu">
+                        <a href="pages/service-deploy.html">智算云平台交付部署</a>
+                        <a href="pages/service-aiops.html">AI智能运维</a>
+                        <a href="pages/service-private-cloud.html">私有云代运维</a>
+                        <a href="pages/service-onsite.html">驻场运维服务</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">自研产品 ▾</a>
+                    <div class="dropdown-menu">
+                        <a href="pages/product-opsgenie.html">OpsGenie AI 智能运维平台</a>
+                        <a href="pages/product-stacklane.html">Stacklane 模型运行时平台</a>
+                    </div>
+                </li>
+                <li><a href="#qualifications">企业资质</a></li>
+                <li><a href="#contact">联系我们</a></li>
+                <li><a href="#contact" class="nav-cta">获取方案</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-grid"></div>
+        <canvas id="particles-canvas"></canvas>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">智算云平台专家 · 值得信赖的运维伙伴</div>
+                <h1 class="hero-title">
+                    <span class="gradient-text">智算云平台</span><br>
+                    交付部署与智能运维
+                </h1>
+                <p class="hero-desc">
+                    南京蔚云信息科技有限公司专注于智算云平台的交付部署、AI智能运维，
+                    以及客户私有云的代运维与驻场运维服务，为企业级AI基础设施提供全生命周期保障。
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">咨询解决方案 →</a>
+                    <a href="#products" class="btn btn-outline">了解自研产品 ⊹</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card">
+                    <div class="hero-card-header">
+                        <span class="hero-card-dot red"></span>
+                        <span class="hero-card-dot yellow"></span>
+                        <span class="hero-card-dot green"></span>
+                        <span class="hero-card-title">weyun-ops ~ terminal</span>
+                    </div>
+                    <div class="hero-card-content">
+                        <div class="code-line"><span class="code-prompt">$</span><span class="code-cmd">stacklane</span><span class="code-arg"> deploy --gpu-cluster</span></div>
+                        <div class="code-output">⚡ 正在部署 GPU 集群...</div>
+                        <div class="code-output">✓ 8x NVIDIA A100 节点就绪</div>
+                        <div class="code-output">✓ vLLM Runtime 已启动</div>
+                        <div class="code-line" style="margin-top:8px;"><span class="code-prompt">$</span><span class="code-cmd">opsgenie-ai</span><span class="code-arg"> monitor --all</span></div>
+                        <div class="code-output">🤖 AI 运维监控已激活</div>
+                        <div class="code-output">📊 13个AI模型 · 30+云API就绪</div>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="hero-stat"><div class="hero-stat-value">99.9%</div><div class="hero-stat-label">服务可用性</div></div>
+                        <div class="hero-stat"><div class="hero-stat-value">7×24</div><div class="hero-stat-label">运维保障</div></div>
+                        <div class="hero-stat"><div class="hero-stat-value">50+</div><div class="hero-stat-label">服务客户</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="section" id="services">
+        <div class="section-container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-tag">💡 核心服务</div>
+                <h2 class="section-title">全方位智算云服务能力</h2>
+                <p class="section-desc">从智算云平台的规划设计、交付部署到日常运维，提供端到端的专业服务</p>
+            </div>
+            <div class="services-grid">
+                <a href="pages/service-deploy.html" class="service-card animate-on-scroll">
+                    <div class="service-icon blue">🚀</div>
+                    <h3>智算云平台交付部署</h3>
+                    <p>提供GPU集群、AI推理平台、大模型训练平台的规划设计与一站式交付部署。</p>
+                    <div class="service-tags">
+                        <span class="service-tag">GPU集群</span>
+                        <span class="service-tag">大模型平台</span>
+                        <span class="service-tag">推理服务</span>
+                    </div>
+                    <div class="card-arrow">了解详情 →</div>
+                </a>
+                <a href="pages/service-aiops.html" class="service-card animate-on-scroll">
+                    <div class="service-icon purple">🤖</div>
+                    <h3>AI智能运维 (AIOps)</h3>
+                    <p>基于自研OpsGenie AI平台，融合AI大模型与Function Calling，实现智能运维。</p>
+                    <div class="service-tags">
+                        <span class="service-tag">智能告警</span>
+                        <span class="service-tag">故障自愈</span>
+                        <span class="service-tag">自动化</span>
+                    </div>
+                    <div class="card-arrow">了解详情 →</div>
+                </a>
+                <a href="pages/service-private-cloud.html" class="service-card animate-on-scroll">
+                    <div class="service-icon green">🏢</div>
+                    <h3>私有云代运维</h3>
+                    <p>为客户私有云环境提供远程代运维，覆盖EasyStack、ZStack等主流平台。</p>
+                    <div class="service-tags">
+                        <span class="service-tag">EasyStack</span>
+                        <span class="service-tag">ZStack</span>
+                        <span class="service-tag">远程运维</span>
+                    </div>
+                    <div class="card-arrow">了解详情 →</div>
+                </a>
+                <a href="pages/service-onsite.html" class="service-card animate-on-scroll">
+                    <div class="service-icon orange">👨‍💻</div>
+                    <h3>驻场运维服务</h3>
+                    <p>派遣专业运维工程师驻场现场，7×24小时实时响应，保障基础设施稳定运行。</p>
+                    <div class="service-tags">
+                        <span class="service-tag">驻场工程师</span>
+                        <span class="service-tag">7×24</span>
+                        <span class="service-tag">SLA保障</span>
+                    </div>
+                    <div class="card-arrow">了解详情 →</div>
+                </a>
+                <a href="pages/product-stacklane.html" class="service-card animate-on-scroll">
+                    <div class="service-icon blue">📊</div>
+                    <h3>GPU资源管理</h3>
+                    <p>企业级GPU资源池化管理，支持多租户隔离、资源配额、智能调度与可视化监控。</p>
+                    <div class="service-tags">
+                        <span class="service-tag">资源池化</span>
+                        <span class="service-tag">多租户</span>
+                        <span class="service-tag">智能调度</span>
+                    </div>
+                    <div class="card-arrow">了解详情 →</div>
+                </a>
+                <a href="pages/product-opsgenie.html" class="service-card animate-on-scroll">
+                    <div class="service-icon purple">🔗</div>
+                    <h3>AI应用集成</h3>
+                    <p>对接Dify、GPUStack等主流AI平台，提供模型推理服务编排与流量治理。</p>
+                    <div class="service-tags">
+                        <span class="service-tag">Dify</span>
+                        <span class="service-tag">GPUStack</span>
+                        <span class="service-tag">流量治理</span>
+                    </div>
+                    <div class="card-arrow">了解详情 →</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section class="section" id="products" style="background: linear-gradient(180deg, transparent, rgba(22,93,255,0.02), transparent);">
+        <div class="section-container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-tag">🔧 自研产品</div>
+                <h2 class="section-title">自主研发产品矩阵</h2>
+                <p class="section-desc">基于多年智算云运维经验，自主研发核心产品，提供商业化解决方案</p>
+            </div>
+            <div class="products-grid">
+                <a href="pages/product-opsgenie.html" class="product-card animate-on-scroll">
+                    <div class="product-header">
+                        <h3 class="product-name">OpsGenie AI</h3>
+                        <span class="product-badge">自研产品</span>
+                    </div>
+                    <p class="product-desc">AI驱动的智能云运维平台，集成13+主流AI大模型与Function Calling技术，实现云平台资源的智能化管理与自动化运维。</p>
+                    <ul class="product-features">
+                        <li>支持13+主流AI大模型智能对话运维</li>
+                        <li>30+云平台API的Function Calling自动执行</li>
+                        <li>内置定时任务、智能告警与操作审计</li>
+                    </ul>
+                    <div class="card-arrow">查看产品详情 →</div>
+                </a>
+                <a href="pages/product-stacklane.html" class="product-card animate-on-scroll">
+                    <div class="product-header">
+                        <h3 class="product-name">Stacklane</h3>
+                        <span class="product-badge">自研产品</span>
+                    </div>
+                    <p class="product-desc">企业级AI模型运行时管理平台，集成GPUStack实现GPU集群统一管理、模型全生命周期管理与多租户资源隔离。</p>
+                    <ul class="product-features">
+                        <li>GPU集群统一管理与资源池化</li>
+                        <li>集成vLLM/GPUStack/llama.cpp/TensorRT-LLM</li>
+                        <li>流量治理：灰度发布、A/B测试、熔断限流</li>
+                    </ul>
+                    <div class="card-arrow">查看产品详情 →</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Qualifications -->
+    <section class="section" id="qualifications">
+        <div class="section-container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-tag">🏅 企业资质</div>
+                <h2 class="section-title">资质认证与知识产权</h2>
+                <p class="section-desc">拥有完善的企业资质体系与自主知识产权，保障服务专业性与合规性</p>
+            </div>
+            <div class="qual-grid">
+                <div class="qual-card animate-on-scroll"><div class="qual-icon">📋</div><h4 class="qual-title">行政许可</h4><p class="qual-desc">已获得3项行政许可资质，具备合法经营与服务提供能力</p></div>
+                <div class="qual-card animate-on-scroll"><div class="qual-icon">💻</div><h4 class="qual-title">软件著作权</h4><p class="qual-desc">拥有8项软件著作权登记，核心产品均为自主研发</p></div>
+                <div class="qual-card animate-on-scroll"><div class="qual-icon">📄</div><h4 class="qual-title">纳税人资质</h4><p class="qual-desc">具备正规纳税人资质，企业运营规范合规</p></div>
+                <div class="qual-card animate-on-scroll"><div class="qual-icon">🔐</div><h4 class="qual-title">信息安全</h4><p class="qual-desc">严格遵循信息安全规范，保障客户数据安全</p></div>
+                <div class="qual-card animate-on-scroll"><div class="qual-icon">⚡</div><h4 class="qual-title">技术能力认证</h4><p class="qual-desc">团队持有主流云平台与AI技术认证</p></div>
+                <div class="qual-card animate-on-scroll"><div class="qual-icon">🤝</div><h4 class="qual-title">生态合作伙伴</h4><p class="qual-desc">与主流云厂商建立战略合作关系</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages -->
+    <section class="section" style="background: linear-gradient(180deg, transparent, rgba(114,46,209,0.02), transparent);">
+        <div class="section-container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-tag">📈 核心优势</div>
+                <h2 class="section-title">为什么选择蔚云科技</h2>
+            </div>
+            <div class="advantages-grid animate-on-scroll">
+                <div class="adv-card"><div class="adv-number">8+</div><div class="adv-label">软件著作权</div></div>
+                <div class="adv-card"><div class="adv-number">13+</div><div class="adv-label">AI模型集成</div></div>
+                <div class="adv-card"><div class="adv-number">30+</div><div class="adv-label">云平台API</div></div>
+                <div class="adv-card"><div class="adv-number">7×24</div><div class="adv-label">小时运维保障</div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+        <div class="section-container">
+            <div class="contact-grid">
+                <div class="contact-info animate-on-scroll">
+                    <h3>联系我们</h3>
+                    <p>无论您是需要智算云平台的交付部署，还是寻求专业的运维服务，我们都将为您提供量身定制的解决方案。</p>
+                    <ul class="contact-details">
+                        <li><span class="icon">🏢</span><span>南京蔚云信息科技有限公司</span></li>
+                        <li><span class="icon">📍</span><span>江苏省南京市</span></li>
+                        <li><span class="icon">🌐</span><span>github.com/jibiao-ai</span></li>
+                        <li><span class="icon">📧</span><span>期待您的咨询与合作</span></li>
+                    </ul>
+                </div>
+                <div class="contact-form animate-on-scroll">
+                    <h4>获取定制方案</h4>
+                    <div class="form-group"><input type="text" placeholder="您的姓名"></div>
+                    <div class="form-group"><input type="text" placeholder="联系方式（手机/邮箱）"></div>
+                    <div class="form-group"><input type="text" placeholder="公司名称"></div>
+                    <div class="form-group"><textarea placeholder="请描述您的需求（智算云部署/代运维/驻场运维/其他）"></textarea></div>
+                    <button class="btn btn-primary" style="width:100%; justify-content:center;">提交咨询</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-copy">© 2024 南京蔚云信息科技有限公司 版权所有</div>
+            <ul class="footer-links">
+                <li><a href="pages/product-opsgenie.html">OpsGenie AI</a></li>
+                <li><a href="pages/product-stacklane.html">Stacklane</a></li>
+                <li><a href="pages/service-private-cloud.html">私有云运维</a></li>
+                <li><a href="pages/service-onsite.html">驻场运维</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

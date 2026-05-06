@@ -1,0 +1,25 @@
+# Screenshots (generated files)
+screenshots/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+supervisord.log
+supervisord.pid
+supervisor.sock
+
+# Temp files
+*.tmp

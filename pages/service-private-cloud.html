@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>私有云代运维服务 - 南京蔚云信息科技</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo"><div class="nav-logo-icon">蔚</div><span class="nav-logo-text">蔚云科技</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="#" class="active">核心服务 ▾</a><div class="dropdown-menu"><a href="service-deploy.html">智算云平台交付部署</a><a href="service-aiops.html">AI智能运维</a><a href="service-private-cloud.html">私有云代运维</a><a href="service-onsite.html">驻场运维服务</a></div></li>
+                <li><a href="#">自研产品 ▾</a><div class="dropdown-menu"><a href="product-opsgenie.html">OpsGenie AI</a><a href="product-stacklane.html">Stacklane</a></div></li>
+                <li><a href="../index.html#qualifications">企业资质</a></li>
+                <li><a href="../index.html#contact">联系我们</a></li>
+                <li><a href="../index.html#contact" class="nav-cta">获取方案</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="hero-grid"></div>
+        <div class="page-header-content">
+            <div class="breadcrumb"><a href="../index.html">首页</a><span>/</span><span class="current">私有云代运维</span></div>
+            <h1>私有云代运维服务</h1>
+            <p>为客户侧私有云环境提供专业的远程代运维服务，覆盖EasyStack、ZStack等主流私有云平台，保障业务系统稳定高效运行。</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="section-container">
+            <div class="content-block animate-on-scroll">
+                <h2>服务概述</h2>
+                <p>蔚云科技私有云代运维服务面向已部署私有云平台但缺乏专业运维团队的企业客户，提供远程化、专业化的日常运维管理。我们的运维工程师团队通过安全VPN通道接入客户环境，实施7×24小时监控与管理，确保私有云平台的高可用性与业务连续性。</p>
+                <p>服务范围覆盖平台日常巡检、故障处理、容量规划、安全加固、版本升级等全方位运维工作，让客户可以专注于核心业务发展，无需担忧底层基础设施问题。</p>
+            </div>
+
+            <div class="content-block animate-on-scroll">
+                <h2>支持平台</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <h4>🏗️ EasyStack 私有云</h4>
+                        <p>基于Keystone认证体系，提供完整的EasyStack平台运维管理，包括计算、存储、网络资源的监控与调优。</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>☁️ ZStack 云平台</h4>
+                        <p>基于AccessKey认证机制，覆盖ZStack全栈资源管理，包括虚拟机生命周期、网络拓扑、存储池管理。</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>🐧 OpenStack 系列</h4>
+                        <p>支持各类基于OpenStack的私有云平台运维，熟悉Nova、Neutron、Cinder等核心组件。</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>☸️ Kubernetes 容器平台</h4>
+                        <p>支持K8s/K3s容器编排平台的运维管理，包括集群健康监控、Pod调度优化、ETCD备份恢复。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block animate-on-scroll">
+                <h2>服务内容</h2>
+                <div class="two-col">
+                    <div>
+                        <h3 style="font-size:16px; margin-bottom:16px; color: var(--primary-light);">日常运维管理</h3>
+                        <ul>
+                            <li>平台日常巡检（每日/每周/每月）</li>
+                            <li>计算/存储/网络资源监控与告警</li>
+                            <li>虚拟机/容器生命周期管理</li>
+                            <li>用户权限管理与租户隔离维护</li>
+                            <li>日志收集与分析</li>
+                            <li>定期运维报告输出</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 style="font-size:16px; margin-bottom:16px; color: var(--primary-light);">故障处理与优化</h3>
+                        <ul>
+                            <li>7×24小时故障响应与处理</li>
+                            <li>根因分析(RCA)与改进方案</li>
+                            <li>性能调优与容量规划</li>
+                            <li>安全漏洞修复与加固</li>
+                            <li>平台版本升级与补丁管理</li>
+                            <li>灾备演练与恢复方案制定</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block animate-on-scroll">
+                <h2>服务等级 (SLA)</h2>
+                <table class="data-table">
+                    <thead>
+                        <tr><th>服务等级</th><th>响应时间</th><th>恢复时间</th><th>适用场景</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>P1 - 紧急</td><td>15分钟</td><td>2小时</td><td>平台宕机/业务全面中断</td></tr>
+                        <tr><td>P2 - 高</td><td>30分钟</td><td>4小时</td><td>核心服务异常/性能严重下降</td></tr>
+                        <tr><td>P3 - 中</td><td>2小时</td><td>8小时</td><td>非核心服务异常/单点故障</td></tr>
+                        <tr><td>P4 - 低</td><td>4小时</td><td>24小时</td><td>一般性问题/优化建议</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="content-block animate-on-scroll">
+                <h2>服务优势</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <h4>🔒 安全可控</h4>
+                        <p>通过加密VPN通道接入，严格权限管控，操作全程审计，保障客户数据安全。</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>💰 成本优化</h4>
+                        <p>相比自建运维团队，代运维模式可节省60%以上人力成本，获得更专业的服务。</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>📊 透明可视</h4>
+                        <p>提供运维管理平台Dashboard，客户可实时查看平台状态、工单处理进度。</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>🤖 AI赋能</h4>
+                        <p>结合自研OpsGenie AI平台，实现智能告警分析、自动化故障处理，提升运维效率。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align:center; margin-top:60px;" class="animate-on-scroll">
+                <a href="../index.html#contact" class="btn btn-primary">咨询私有云代运维方案 →</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-copy">© 2024 南京蔚云信息科技有限公司 版权所有</div>
+            <ul class="footer-links">
+                <li><a href="product-opsgenie.html">OpsGenie AI</a></li>
+                <li><a href="product-stacklane.html">Stacklane</a></li>
+                <li><a href="../index.html#contact">联系我们</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>
