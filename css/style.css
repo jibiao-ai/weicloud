@@ -518,7 +518,20 @@ body {
     background: var(--bg-card-hover);
 }
 .tech-item-icon { font-size: 24px; }
+.tech-item-icon-img {
+    width: 32px; height: 32px;
+    object-fit: contain;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
 .tech-item-name { font-size: 14px; font-weight: 600; color: var(--text-secondary); }
+.tech-track-reverse {
+    animation: scroll-right 45s linear infinite;
+}
+@keyframes scroll-right {
+    from { transform: translateX(-50%); }
+    to { transform: translateX(0); }
+}
 
 /* ===== QUALIFICATIONS ===== */
 .qual-grid {
